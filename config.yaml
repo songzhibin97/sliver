@@ -1,0 +1,84 @@
+# github.com/SliverHorn/sliver Global Configuration
+
+# jwt configuration
+jwt:
+  signing-key: 'SliverHorn'
+
+# zap logger configuration
+zap:
+  level: 'info'
+  format: 'console'
+  prefix: '[GIN-VUE-ADMIN]'
+  director: 'log'
+  link-name: 'latest_log'
+  show-line: true
+  encode-level: 'LowercaseColorLevelEncoder'
+  stacktrace-key: 'stacktrace'
+  log-in-console: true
+
+# redis configuration
+redis:
+  db: 0
+  addr: '127.0.0.1:6379'
+  password: ''
+
+# email configuration
+email:
+  to: 'xxx@qq.com'
+  port: 465
+  from: 'xxx@163.com'
+  host: 'smtp.163.com'
+  is-ssl: true
+  secret: 'xxx'
+  nickname: 'test'
+
+# casbin configuration
+casbin:
+  model-path: './static/rbac_model.conf'
+
+# system configuration
+system:
+  env: 'public'  # Change to "develop" to skip authentication for development mode
+  addr: 8888
+  db-type: 'mysql'
+  oss-type: 'local'
+  language: 'zh-CN'
+  need-init-data: false
+  use-multipoint: false
+
+# captcha configuration
+captcha:
+  key-long: 6
+  img-width: 240
+  img-height: 80
+
+# snowflake configuration
+snowflake:
+  package: 'Sony' # Sony || Bwmarrin
+  start-time: '2020-10-07'
+  machine-id: 7
+
+# mysql connect configuration
+mysql:
+  path: '127.0.0.1:3306'
+  config: 'charset=utf8mb4&parseTime=True&loc=Local'
+  db-name: 'sliver'
+  username: 'root'
+  password: 'gdkid,,..'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: false
+
+# local configuration
+local:
+  path: 'uploads/file'
+
+# qiniu configuration (请自行七牛申请对应的 公钥 私钥 bucket 和 域名地址)
+qiniu:
+  zone: 'ZoneHuadong'
+  bucket: ''
+  img-path: ''
+  use-https: false
+  access-key: ''
+  secret-key: ''
+  use-cdn-domains: false

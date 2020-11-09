@@ -1,0 +1,8 @@
+MysqlConnectFail: "Gorm连接MySQL异常, err:"
+SqliteConnectFail: "Gorm连接Sqlite异常, err:"
+SqlServerConnectFail: "Gorm连接SqlServer异常, err:"
+PostgreSqlConnectFail: "Gorm连接PostgreSql异常, err:"
+RegisterTableFailed: "注册表失败, err:"
+RegisterTableSuccess: "注册表成功!"
+
+IdGetterError: "通过Id获取数据失败, err:"

@@ -1,0 +1,8 @@
+MysqlConnectFail: "Gorm connect Mysql failed, err:"
+SqliteConnectFail: "Gorm connect Sqlite failed, err:"
+SqlServerConnectFail: "Gorm connect Sqlite failed, err:"
+PostgreSqlConnectFail: "Gorm connect PostgreSql failed, err:"
+RegisterTableFailed: "Register table failed, err:"
+RegisterTableSuccess: "register table success!"
+
+IdGetterError: "Gorm Get Data Failed By ID, err:"

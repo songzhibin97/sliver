@@ -1,0 +1,10 @@
+PingResponse: "redis连接成功, ping返回的信息:"
+PingFailed: "redis连接失败, ping返回的错误信息:"
+
+# integration/redis/result
+SliceUnWarpFail: "获取Slice类型数据失败, err:"
+StringUnWarpFail: "获取String类型数据失败, err:"
+InterfaceUnWarpFail: "获取Interface类型数据失败, err:"
+
+# integration/redis/policy
+CrossPolicyFailed: "Cross策略失败"

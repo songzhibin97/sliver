@@ -1,0 +1,2 @@
+GobNewEncoderFail: "Gob NewEncoder Failed, err:"
+GobNewDecoderFail: "Gob NewDecoder Failed, err:"

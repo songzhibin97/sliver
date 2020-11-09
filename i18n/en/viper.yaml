@@ -1,0 +1,6 @@
+ConfigEnv: "You are using GVA_CONFIG environment variable, the path of config is:"
+ConfigChanged: "Config file changed:"
+ChooseConfigFile: "Please specify the path of the configuration file!"
+DefaultConfigFile: "You are using the default value of config, the path of config is:"
+CommandConfigFile: "You are using the value passed by the -c parameter of the command line, the path of config is:"
+ReadConfigFileFatal: "Failed to read config.yaml file, err:"

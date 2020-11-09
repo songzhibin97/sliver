@@ -1,0 +1,6 @@
+ConfigEnv: "您正在使用GVA_CONFIG环境变量,config的路径为:"
+ConfigChanged: "配置文件已修改并更新,文件为:"
+ChooseConfigFile: "请指定配置文件的路径!"
+DefaultConfigFile: "您正在使用config的默认值,config的路径为:"
+CommandConfigFile: "您正在使用命令行的-c参数传递的值,config的路径为:"
+ReadConfigFileFatal: "读取config.yaml文件失败, err:"

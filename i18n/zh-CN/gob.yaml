@@ -1,0 +1,2 @@
+GobNewEncoderFail: "Gob创建新的需要转化二进制区域对象失败, err:"
+GobNewDecoderFail: "Gob 进行流转化失败, err:"

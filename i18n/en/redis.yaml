@@ -1,0 +1,10 @@
+PingResponse: "redis connect ping response:"
+PingFailed: "redis connect ping failed, err:"
+
+# integration/redis/result
+SliceUnWarpFail: "Slice UnWarp Failed, err:"
+StringUnWarpFail: "String UnWarp Failed, err:"
+InterfaceUnWarpFail: "Interface UnWarp Failed, err:"
+
+# integration/redis/policy
+CrossPolicyFailed: "CrossPolicy Failed"

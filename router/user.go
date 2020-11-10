@@ -17,6 +17,10 @@ func (u *UserRouter) Engine() *gin.Engine {
 	return u.engine
 }
 
-func (u *UserRouter) Register(i interfaces.IEngine) {
-	u.engine = i.Engine()
+func (u *UserRouter) Register(fs ...interfaces.Fs) {
+	r := gin.New()
+	g := r.Group("/")
+	for _, f := range fs {
+		f(g)
+	}
 }

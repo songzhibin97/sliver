@@ -11,7 +11,13 @@ type IEngine interface {
 	Engine() *gin.Engine
 }
 
-// IRouter: 实现路由接口类
+//// IRouter: 实现路由接口类
+//type IRouter interface {
+//	Register(IEngine)
+//}
+
+type Fs func(group *gin.RouterGroup)
+
 type IRouter interface {
-	Register(IEngine)
+	Register(...Fs)
 }

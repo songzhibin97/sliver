@@ -1,6 +1,7 @@
 package router
 
 import (
+	"github.com/SliverHorn/sliver/interfaces"
 	"github.com/gin-gonic/gin"
 )
 
@@ -16,6 +17,6 @@ func (u *UserRouter) Engine() *gin.Engine {
 	return u.engine
 }
 
-func (u *UserRouter) Register(g *gin.Engine) {
-	u.engine = g
+func (u *UserRouter) Register(i interfaces.IEngine) {
+	u.engine = i.Engine()
 }
